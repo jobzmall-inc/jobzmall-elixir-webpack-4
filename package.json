@@ -1,5 +1,5 @@
 {
-  "name": "jobzmall-elixir-webpack-4",
+  "name": "laravel-elixir-webpack-official",
   "version": "1.0.10",
   "description": "JobzMall Elixir Webpack Integration",
   "main": "dist/index.js",
