@@ -22,7 +22,7 @@ Elixir.webpack = {
         },
         devtool: Elixir.config.sourcemaps ? 'eval-cheap-module-source-map' : '',
         module: {
-            rules: [{ test: /\.js$/, use: 'babel', exclude: /node_modules/ }]
+            rules: [{ test: /\.js$/, use: 'babel-loader', exclude: /node_modules/ }]
         },
         stats: {
             assets: false,
