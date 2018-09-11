@@ -1,16 +1,16 @@
-# Laravel Elixir Webpack Integration
+# JobzMall Elixir Webpack 4 Integration
 
-This extension brings Webpack support to Laravel Elixir, version 6 and up.
+This extension brings Webpack support to JobzMall Elixir, version 6 and up.
 
 ## Step 1: Install
 
 ```js
-npm install laravel-elixir-webpack-official --save-dev
+npm install laravel-elixir-webpack-4 --save-dev
 ```
 
 ## Step 2: Usage
 
-Similar to Browserify, the `webpack` method may be used to compile and bundle [ECMAScript 2015](https://babeljs.io/docs/learn-es2015/) into plain JavaScript.
+Similar to Browserify, the `webpack` method may be used to compile and bundle the latest JS versions (https://babeljs.io/) into plain JavaScript.
 This function accepts a file, relative to the `resources/assets/js` directory, and generates a single bundled file in the `public/js` directory:
 
 ```javascript

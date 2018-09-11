@@ -7,7 +7,7 @@ import WebpackTask from './WebpackTask';
  |----------------------------------------------------------------
  |
  | This task will allow you to use ES2015 code in any browser.
- | It leverages Webpack and Buble to transform and compile
+ | It leverages Webpack and Babel to transform and compile
  | your code into a single entry point for the browser.
  |
  */
@@ -22,7 +22,7 @@ Elixir.webpack = {
         },
         devtool: Elixir.config.sourcemaps ? 'eval-cheap-module-source-map' : '',
         module: {
-            loaders: [{ test: /\.js$/, loader: 'buble', exclude: /node_modules/ }]
+            rules: [{ test: /\.js$/, use: 'babel', exclude: /node_modules/ }]
         },
         stats: {
             assets: false,
