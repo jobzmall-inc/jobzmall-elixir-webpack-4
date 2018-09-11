@@ -9,8 +9,7 @@
   },
   "homepage": "https://github.com/jobzmall-inc/laravel-elixir-webpack-4",
   "scripts": {
-    "compile": "babel --presets=@babel/preset-env -d dist src",
-    "prepublish": "npm run compile"
+    "compile": "babel --presets=@babel/preset-env -d dist src"
   },
   "keywords": [
     "laravel",
